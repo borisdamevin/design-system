@@ -1,6 +1,6 @@
 {
   "name": "@mydrivetime/design-system",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MyDriveTime Design System",
   "license": "MIT",
   "repository": "mydrivetime/design-system",
@@ -9,6 +9,7 @@
     "mydrivetime"
   ],
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.7.5",
+    "bootstrap": "^4.3.1"
   }
 }
