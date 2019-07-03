@@ -1,0 +1,11 @@
+{
+  "name": "@mydrivetime/design-system",
+  "version": "1.0.2",
+  "description": "MyDriveTime Design System",
+  "license": "MIT",
+  "repository": "mydrivetime/design-system",
+  "main": "index.js",
+  "keywords": [
+    "mydrivetime"
+  ]
+}
