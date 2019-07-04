@@ -1,4 +1,6 @@
 .border-thick
 {
-    height: 4px solid $c-mid-grey;
+    height: 4px;
+    width: 100%;
+    background-color: $c-mid-grey;
 }
