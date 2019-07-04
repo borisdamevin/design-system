@@ -74,3 +74,20 @@
 {
     @extend .text-style-six;
 }
+
+
+// Paragraph
+.paragraph-style-one
+{
+    @extend .text-style-seven;
+}
+
+.paragraph-style-two
+{
+    @extend .text-style-eight;
+}
+
+.paragraph-style-three
+{
+    @extend .text-style-nine;
+}
