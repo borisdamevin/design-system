@@ -1,0 +1,58 @@
+.sidebar-nav-item
+{
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    text-decoration: none;
+    border-radius: 4px;
+
+    &__icon
+    {
+        flex-basis: 20px;
+        width: 20px;
+        height: 20px;
+        margin-right: rem(14px);
+    }
+
+    &__label
+    {
+        flex-grow: 1;
+        font-family: $f-inter;
+        font-size: rem(16px);
+        font-weight: 400;
+        color: $c-brand-dark-grey;
+    }
+
+    &__arrow
+    {
+        flex-basis: 13px;
+        width: 13px;
+        height: 13px;
+    }
+
+    &:hover
+    {
+        background-color: $c-light-orange;
+
+        .sidebar-nav-item
+        {
+            &__label
+            {
+                font-weight: 600;
+                color: $c-brand-orange;
+            }
+        }
+    }
+
+    &--active
+    {
+        .sidebar-nav-item
+        {
+            &__label
+            {
+                font-weight: 600;
+                color: $c-brand-orange;
+            }
+        }
+    }
+}
