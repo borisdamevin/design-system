@@ -1,16 +1,21 @@
+// Browser Resets
+@import 'generic/reset';
+@import 'generic/shared';
+
 // Variables
 @import 'variables/colors';
 
-// Mixins
+// Functions & Mixins
 @import 'mixins/text-style';
+
+// Elements
+@import 'elements/typography';
 
 // Objects
 @import 'objects/border';
 @import 'objects/border-thick';
 @import 'objects/card';
-
-// Elements
-@import 'elements/typography';
+@import 'objects/mdt-logo';
 
 // Utilities
 @import 'utilities/colors';
