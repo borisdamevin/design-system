@@ -1,0 +1,10 @@
+.label-outline {
+  @extend .label-filled;
+  color: $c-red;
+  background-color: $c-white;
+  border: rem(1.5px) solid $c-red;
+  &:hover {
+    background-color: $c-red;
+    color: $c-white;
+  }
+}
