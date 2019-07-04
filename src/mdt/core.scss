@@ -2,11 +2,16 @@
 @import 'variables/colors';
 
 // Mixins
+@import 'mixins/avatar';
 @import 'mixins/text-style';
 
 // Objects
+@import 'objects/avatar-initials';
+@import 'objects/avatar-image';
 @import 'objects/border';
 @import 'objects/border-thick';
+@import 'objects/default-button';
+@import 'objects/ghost-button';
 @import 'objects/card';
 
 // Elements

@@ -1,0 +1,18 @@
+.avatar-initials
+{
+    @include Avatar(); 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $c-brand-orange;
+
+    &__label
+    {
+        font-family: Inter, sans-serif;
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+    }
+}
