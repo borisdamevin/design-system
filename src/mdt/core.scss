@@ -1,12 +1,17 @@
+// Variables
 @import 'variables/colors';
 
+// Mixins
 @import 'mixins/text-style';
 
+// Objects
 @import 'objects/border';
 @import 'objects/border-thick';
 @import 'objects/card';
 
+// Elements
 @import 'elements/typography';
 
+// Utilities
 @import 'utilities/colors';
 @import 'utilities/typography';
