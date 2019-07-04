@@ -1,0 +1,8 @@
+.avatar-image
+{
+    @include Avatar();
+
+    background-color: $c-light-grey;
+    background-size: cover;
+    background-position: center;
+}

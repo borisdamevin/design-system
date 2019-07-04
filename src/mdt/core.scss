@@ -6,14 +6,19 @@
 @import 'variables/colors';
 
 // Functions & Mixins
+@import 'mixins/avatar';
 @import 'mixins/text-style';
 
 // Elements
 @import 'elements/typography';
 
 // Objects
+@import 'objects/avatar-initials';
+@import 'objects/avatar-image';
 @import 'objects/border';
 @import 'objects/border-thick';
+@import 'objects/default-button';
+@import 'objects/ghost-button';
 @import 'objects/card';
 @import 'objects/mdt-logo';
 
