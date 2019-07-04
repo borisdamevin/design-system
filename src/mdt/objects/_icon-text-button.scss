@@ -1,0 +1,19 @@
+.icon-text-button
+{
+    padding: 0;
+    border: none;
+    color: $c-brand-mid-grey;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    &:hover
+    {
+        color: $c-brand-dark-grey;
+    }
+
+    &:disabled
+    {
+        color: $c-brand-light-grey;
+    }
+}
