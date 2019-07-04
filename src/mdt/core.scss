@@ -1,5 +1,12 @@
 @import 'variables/colors';
 
-@import 'utilities/colors';
+@import 'mixins/text-style';
 
+@import 'objects/border';
+@import 'objects/border-thick';
 @import 'objects/card';
+
+@import 'elements/typography';
+
+@import 'utilities/colors';
+@import 'utilities/typography';

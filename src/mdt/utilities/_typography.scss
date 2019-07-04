@@ -1,0 +1,76 @@
+.text-style-one
+{
+    @include TextStyle(32px, 1.5);
+}
+
+.text-style-two
+{
+    @include TextStyle(28px, 1.5);
+}
+
+.text-style-three
+{
+    @include TextStyle(24px, 1.5);
+}
+
+.text-style-four
+{
+    @include TextStyle(22px, 1.5);
+}
+
+.text-style-five
+{
+    @include TextStyle(20px, 1.5);
+}
+
+.text-style-six
+{
+    @include TextStyle(12px, 1.5);
+}
+
+.text-style-seven
+{
+    @include TextStyle(18px, 1.3);
+}
+
+.text-style-eight
+{
+    @include TextStyle(16px, 1.3);
+}
+
+.text-style-nine
+{
+    @include TextStyle(14px, 1.3);
+}
+
+
+// Headings
+.heading-style-one
+{
+    @extend .text-style-one;
+}
+
+.heading-style-two
+{
+    @extend .text-style-two;
+}
+
+.heading-style-three
+{
+    @extend .text-style-three;
+}
+
+.heading-style-four
+{
+    @extend .text-style-four;
+}
+
+.heading-style-five
+{
+    @extend .text-style-five;
+}
+
+.heading-style-six
+{
+    @extend .text-style-six;
+}

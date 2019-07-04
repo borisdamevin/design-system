@@ -1,0 +1,7 @@
+@mixin TextStyle($fontSize, $lineHeightMultiplier)
+{
+    font-family: Inter, sans-serif;
+    font-size: $fontSize;
+    line-height: #{$fontSize * $lineHeightMultiplier};
+    font-weight: 400;
+}
