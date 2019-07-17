@@ -9,9 +9,21 @@
 // Functions & Mixins
 @import 'mixins/avatar';
 @import 'mixins/text-style';
+@import 'mixins/icon';
 
 // Elements
 @import 'elements/typography';
+
+// Objects - Icons
+@import 'objects/icons/icon-arrow-up';
+@import 'objects/icons/icon-arrow-down';
+@import 'objects/icons/icon-arrow-right';
+@import 'objects/icons/icon-dashboard';
+@import 'objects/icons/icon-diary';
+@import 'objects/icons/icon-payment';
+@import 'objects/icons/icon-settings';
+@import 'objects/icons/icon-students';
+@import 'objects/icons/icon-logout';
 
 // Objects
 @import 'objects/avatar-initials';
@@ -20,7 +32,9 @@
 @import 'objects/border-thick';
 @import 'objects/default-button';
 @import 'objects/ghost-button';
+@import 'objects/ghost-button-small';
 @import 'objects/full-width-button';
+@import 'objects/icon-text-button';
 @import 'objects/input-field';
 @import 'objects/toggle';
 @import 'objects/card';
@@ -29,15 +43,10 @@
 @import 'objects/label-filled';
 @import 'objects/label-outline';
 
-// Objects - Icons
-@import 'objects/icons/icon-arrow-down';
-@import 'objects/icons/icon-arrow-right';
-@import 'objects/icons/icon-dashboard';
-@import 'objects/icons/icon-diary';
-@import 'objects/icons/icon-payment';
-@import 'objects/icons/icon-settings';
-@import 'objects/icons/icon-students';
-
 // Utilities
 @import 'utilities/colors';
 @import 'utilities/typography';
+
+// Layout
+@import 'layout/navigation-sidebar';
+@import 'layout/navigation-header';

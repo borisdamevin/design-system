@@ -1,6 +1,5 @@
 .icon-arrow-right 
 {
+    @include Icon();
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='33' height='64' viewBox='0 0 33 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M-3.30989e-08 63.2428C-1.9811e-08 63.5468 0.182396 63.8204 0.471189 63.942C0.759981 64.0636 1.07917 63.9876 1.29197 63.7748L32.5424 32.5244C32.6944 32.3724 32.7704 32.1748 32.7704 31.9924C32.7704 31.81 32.6944 31.5972 32.5424 31.4604L1.30716 0.225231C1.10957 0.0124359 0.775178 -0.0635643 0.471186 0.0580292C0.182393 0.179626 -2.77772e-06 0.453224 -2.76443e-06 0.757217L-3.30989e-08 63.2428Z' fill='%23808080'/%3E%3C/svg%3E");
-    background-size: contain;
-    background-repeat: no-repeat;
 }

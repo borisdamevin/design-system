@@ -1,0 +1,23 @@
+.navigation-sidebar
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 230px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    padding: rem(16px);
+    background: $c-white;
+    box-shadow: 3px 0px 14px rgba(0, 0, 0, 0.07);
+
+    &__links
+    {
+        flex-basis: 100%;
+    }
+
+    &__footer
+    {
+        padding: rem(8px);
+    }
+}

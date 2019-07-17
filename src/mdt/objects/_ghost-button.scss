@@ -3,7 +3,6 @@ $borderWidth: 1.5px;
 .ghost-button
 {
     padding: #{16px - $borderWidth} #{24px - $borderWidth};
-    // padding: 16px 24px;
     background-color: $c-white;
     border: $borderWidth solid $c-brand-orange;
     border-radius: rem(4px);
@@ -11,6 +10,7 @@ $borderWidth: 1.5px;
     font-family: $f-inter;
     font-weight: 500;
     font-size: rem(16px);
+    text-decoration: none;
 
     &:hover
     {

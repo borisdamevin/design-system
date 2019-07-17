@@ -1,0 +1,26 @@
+$borderWidth: 1.5px;
+
+.ghost-button-small
+{
+    padding: #{8px - $borderWidth} #{12px - $borderWidth};
+    background-color: $c-white;
+    border: $borderWidth solid $c-brand-orange;
+    border-radius: rem(4px);
+    color: $c-brand-orange;
+    font-family: $f-inter;
+    font-weight: 500;
+    font-size: rem(16px);
+    text-decoration: none;
+
+    &:hover
+    {
+        border-color: $c-dark-orange;
+        color: $c-dark-orange;
+    }
+
+    &:disabled
+    {
+        border-color: $c-brand-mid-grey;
+        color: $c-brand-mid-grey;
+    }
+}

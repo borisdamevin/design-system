@@ -7,36 +7,33 @@
 
     &__labels
     {
-        display: flex;
+        display: inline-flex;
+        border: rem(2px) solid $c-brand-orange;
+        border-radius: rem(4px);
     }
 
     &__label
     {
         padding: rem(12px 24px);
-        border: 2px solid $c-brand-orange;
         font-family: $f-inter;
         font-size: rem(16px);
         text-align: center;
         font-weight: 400;
         color: $c-typography;
 
+        &:not(.toggle__label--checked)
+        {
+            & + &
+            {
+                border-left: rem(0.75px) solid $c-mid-grey;
+            }   
+        }
+
         &--checked
         {
             background-color: $c-brand-orange;
             font-weight: 600;
             color: $c-white;
-        }
-
-        &:first-child
-        {
-            border-top-left-radius: rem(4px);
-            border-bottom-left-radius: rem(4px);
-        }
-
-        &:last-child
-        {
-            border-top-right-radius: rem(4px);
-            border-bottom-right-radius: rem(4px);
         }
     }
 }
