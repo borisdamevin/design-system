@@ -1,0 +1,19 @@
+.text-link-button
+{
+    font-family: $f-inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333;
+    text-decoration: underline;
+
+    &:hover
+    {
+        color: $c-brand-orange;
+    }
+
+    &:disabled
+    {
+        color: $c-mid-grey;
+    }
+}
