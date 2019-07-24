@@ -9,15 +9,15 @@
     font-weight: 500;
     font-size: rem(16px);
 
-    &:hover
+    &:hover,
+    &:active,
+    &:focus
     {
         background-color: $c-dark-orange;
-        border: none;
     }
 
     &:disabled
     {
         background-color: $c-brand-mid-grey;
-        border: none;
     }
 }

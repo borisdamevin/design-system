@@ -8,13 +8,15 @@
     &__labels
     {
         display: inline-flex;
-        border: rem(2px) solid $c-brand-orange;
+        width: 100%;
+        border: rem(1.5px) solid $c-brand-orange;
         border-radius: rem(4px);
     }
 
     &__label
     {
-        padding: rem(12px 24px);
+        flex: 1 0 auto;
+        padding: rem(14.5px 22.5px);
         font-family: $f-inter;
         font-size: rem(16px);
         text-align: center;
