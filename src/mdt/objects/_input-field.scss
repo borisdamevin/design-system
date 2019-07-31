@@ -21,24 +21,7 @@
         color: $c-typography;
         border-bottom: 2px solid $c-brand-light-grey;
         transition: border-bottom-color 0.2s;
-    }
-
-    &--active
-    {
-        .input-field
-        {
-            &__label
-            {
-                font-size: 14px;
-                color: $c-brand-mid-grey;
-            }
-
-            &__control
-            {
-                border-bottom-color: $c-brand-orange;
-            }
-        }
-    }
+    }    
 
     &--completed
     {
@@ -73,15 +56,9 @@
     {
         .input-field
         {
-            &__label
-            {
-                font-size: 14px;
-                color: $c-brand-mid-grey;
-            }
-
             &__control
             {
-                border-bottom-color: $c-dark-orange;
+                border-bottom-color: $c-red;
             }
 
             &__error
@@ -90,7 +67,24 @@
                 margin-top: 8px;
                 font-family: Inter, sans-serif;
                 font-size: 14px;
-                color: $c-dark-orange;
+                color: $c-red;
+            }
+        }
+    }
+
+    &--active
+    {
+        .input-field
+        {
+            &__label
+            {
+                font-size: 14px;
+                color: $c-brand-mid-grey;
+            }
+
+            &__control
+            {
+                border-bottom-color: $c-brand-orange;
             }
         }
     }

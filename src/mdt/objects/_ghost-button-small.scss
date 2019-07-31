@@ -12,7 +12,9 @@ $borderWidth: 1.5px;
     font-size: rem(16px);
     text-decoration: none;
 
-    &:hover
+    &:hover,
+    &:active,
+    &:focus
     {
         border-color: $c-dark-orange;
         color: $c-dark-orange;
