@@ -1,0 +1,18 @@
+.avatar-initials-two-thirds
+{
+    @include Avatar(48px); 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $c-brand-orange;
+
+    &__label
+    {
+        font-family: $f-inter;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+    }
+}

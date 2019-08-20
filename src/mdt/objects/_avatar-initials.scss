@@ -1,6 +1,6 @@
 .avatar-initials
 {
-    @include Avatar(); 
+    @include Avatar(72px); 
     
     display: flex;
     justify-content: center;

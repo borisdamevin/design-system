@@ -1,6 +1,6 @@
 .avatar-image
 {
-    @include Avatar();
+    @include Avatar(72px);
 
     background-color: $c-light-grey;
     background-size: cover;

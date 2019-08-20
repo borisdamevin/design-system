@@ -1,6 +1,6 @@
-@mixin Avatar()
+@mixin Avatar($size)
 {
-    width: 72px; 
-    height: 72px;
+    width: $size; 
+    height: $size;
     border-radius: 9999px;
 }
