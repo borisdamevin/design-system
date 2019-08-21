@@ -1,3 +1,63 @@
+// Font Weights
+.font-weight-extra-bold {
+  font-weight: $fw-extra-bold;
+}
+
+.font-weight-medium {
+  font-weight: $fw-medium;
+}
+
+// Font Sizes
+.fs-regular {
+  font-size: $fs-16;
+}
+
+.fs-32 {
+  font-size: $fs-32;
+}
+
+.fs-28 {
+  font-size: $fs-28;
+}
+
+.fs-24 {
+  font-size: $fs-24;
+}
+
+.fs-20 {
+  font-size: $fs-20;
+}
+
+.fs-18 {
+  font-size: $fs-18;
+}
+
+.fs-16 {
+  font-size: $fs-16;
+}
+
+.fs-14 {
+  font-size: $fs-14;
+}
+
+.fs-12 {
+  font-size: $fs-12;
+}
+
+// Line Heights
+.lh-reset {
+  line-height: $lh-reset;
+}
+
+.lh-sm {
+  line-height: $lh-sm;
+}
+
+.lh-lg {
+  line-height: $lh-lg;
+}
+
+// Text styles
 .text-style-one
 {
     @include TextStyle(32px, 1.3);
