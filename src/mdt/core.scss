@@ -18,6 +18,9 @@
 @import 'objects/icons/icon-arrow-down';
 @import 'objects/icons/icon-arrow-up';
 @import 'objects/icons/icon-arrow-right';
+@import 'objects/icons/icon-bars';
+@import 'objects/icons/icon-chevron-double-left';
+@import 'objects/icons/icon-chevron-double-right';
 @import 'objects/icons/icon-dashboard';
 @import 'objects/icons/icon-diary';
 @import 'objects/icons/icon-instructor';
@@ -49,6 +52,7 @@
 @import 'objects/card';
 @import 'objects/sidebar-nav-item';
 @import 'objects/mdt-logo';
+@import 'objects/mdt-logo-icon';
 @import 'objects/label-filled';
 @import 'objects/label-outline';
 
@@ -58,4 +62,6 @@
 
 // Layout
 @import 'layout/navigation-sidebar';
+@import 'layout/navigation-sidebar-collapsed';
+@import 'layout/navigation-sidebar-close';
 @import 'layout/navigation-header';
