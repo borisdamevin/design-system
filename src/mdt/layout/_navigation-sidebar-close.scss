@@ -1,11 +1,9 @@
 .navigation-sidebar-close
 {
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: rem(36px);
-    flex-grow: 1;
+    box-sizing: content-box;
+    height: 20px;
+    font-size: rem(44px);
+    line-height: 20px;
 
     [class^="icon-"]
     {
