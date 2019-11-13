@@ -1,0 +1,22 @@
+@mixin IconFilter($color)
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.37707 4.48012L22.7724 34.2683V61.0061C22.7724 63.0803 25.3556 64.6621 27.2048 63.7226L39.406 57.4792C40.4028 56.9725 41.0733 55.8806 41.0742 54.7623V34.2683L57.4695 4.48012C58.4465 2.63851 56.8851 0.0176917 54.8005 0H9.04608C6.9827 0.0152515 5.19645 2.41522 6.37707 4.48012ZM14.1934 6.10059H49.6531L35.3549 32.0757C35.106 32.5256 34.9734 33.0391 34.9736 33.5532V52.9037L28.873 56.0017V33.5532C28.8732 33.0391 28.7403 32.5256 28.4917 32.0757L14.1934 6.10059Z' fill='#{$color}'/%3E%3C/svg%3E");
+}
+
+.icon-filter
+{
+    @include Icon();
+    @include IconFilter('%23#{str-slice(#{$c-brand-mid-grey}, 2, 7)}');
+}
+
+.icon-filter-white
+{
+    @include Icon();
+    @include IconFilter('%23#{str-slice(#{$c-white}, 2, 7)}');
+}
+
+.icon-filter-blue
+{
+    @include Icon();
+    @include IconFilter('%23#{str-slice(#{$c-blue}, 2, 7)}');
+}
