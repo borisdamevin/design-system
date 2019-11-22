@@ -11,6 +11,7 @@ $borderWidth: 1.5px;
     font-weight: 500;
     font-size: rem(16px);
     text-decoration: none;
+    text-align: center;
 
     &:hover,
     &:active,
@@ -18,6 +19,7 @@ $borderWidth: 1.5px;
     {
         border-color: $c-dark-orange;
         color: $c-dark-orange;
+        text-decoration: none;
     }
 
     &:disabled

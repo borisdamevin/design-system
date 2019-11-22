@@ -1,7 +1,12 @@
 .card
 {
-    padding: 2rem;
+    padding: rem(16px);
     background-color: $c-white;
     border: 1px solid $c-mid-grey;
     border-radius: 0.5rem;
+
+    @media (min-width: 576px)
+    {
+        padding: rem(32px);
+    }
 }

@@ -1,8 +1,13 @@
 @mixin Icon()
 {
-    width: 64px;
-    height: 64px;
+    width: 1em;
+    height: 1em;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+$iconColors: (
+    black: $c-black, 
+    blue: $c-blue
+);

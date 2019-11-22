@@ -18,18 +18,29 @@
 @import 'objects/icons/icon-arrow-down';
 @import 'objects/icons/icon-arrow-up';
 @import 'objects/icons/icon-arrow-right';
+@import 'objects/icons/icon-bars';
+@import 'objects/icons/icon-chevron-double-left';
+@import 'objects/icons/icon-chevron-double-right';
+@import 'objects/icons/icon-clock';
+@import 'objects/icons/icon-close';
 @import 'objects/icons/icon-dashboard';
 @import 'objects/icons/icon-diary';
+@import 'objects/icons/icon-email';
+@import 'objects/icons/icon-filter';
+@import 'objects/icons/icon-hamburger';
+@import 'objects/icons/icon-help';
 @import 'objects/icons/icon-instructor';
 @import 'objects/icons/icon-instructor-view';
 @import 'objects/icons/icon-logout';
 @import 'objects/icons/icon-map-marker';
 @import 'objects/icons/icon-payment';
+@import 'objects/icons/icon-phone';
 @import 'objects/icons/icon-schools';
 @import 'objects/icons/icon-search-plus';
 @import 'objects/icons/icon-search-minus';
 @import 'objects/icons/icon-settings';
 @import 'objects/icons/icon-students';
+@import 'objects/icons/icon-sync';
 
 // Objects
 @import 'objects/avatar-initials';
@@ -49,6 +60,7 @@
 @import 'objects/card';
 @import 'objects/sidebar-nav-item';
 @import 'objects/mdt-logo';
+@import 'objects/mdt-logo-icon';
 @import 'objects/label-filled';
 @import 'objects/label-outline';
 
@@ -58,4 +70,6 @@
 
 // Layout
 @import 'layout/navigation-sidebar';
+@import 'layout/navigation-sidebar-collapsed';
+@import 'layout/navigation-sidebar-close';
 @import 'layout/navigation-header';
