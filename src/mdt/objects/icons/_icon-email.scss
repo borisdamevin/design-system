@@ -13,3 +13,13 @@
 {
     @include IconEmail('%23#{str-slice(#{$c-brand-mid-grey}, 2, 7)}');
 }
+
+.icon-email-brand-orange
+{
+    @include IconEmail('%23#{str-slice(#{$c-brand-orange}, 2, 7)}');
+}
+
+.icon-email-dark-orange
+{
+    @include IconEmail('%23#{str-slice(#{$c-dark-orange}, 2, 7)}');
+}

@@ -13,3 +13,8 @@
 {
     @include IconMapMarker('%23#{str-slice(#{$c-brand-mid-grey}, 2, 7)}');
 }
+
+.icon-map-marker-brand-dark-grey
+{
+    @include IconMapMarker('%23#{str-slice(#{$c-brand-dark-grey}, 2, 7)}');
+}
