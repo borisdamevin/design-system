@@ -1,0 +1,28 @@
+$borderWidth: 1.5px;
+
+.ghost-button-help
+{
+    padding: #{16px - $borderWidth} #{24px - $borderWidth};
+    background-color: $c-white;
+    border: $borderWidth solid $c-help-blue;
+    border-radius: rem(4px);
+    color: $c-help-blue;
+    font-family: $f-inter;
+    font-weight: 500;
+    font-size: rem(16px);
+    text-decoration: none;
+    text-align: center;
+
+    &:hover,
+    &:active,
+    &:focus
+    {
+        text-decoration: none;
+    }
+
+    &:disabled
+    {
+        border-color: $c-brand-mid-grey;
+        color: $c-brand-mid-grey;
+    }
+}

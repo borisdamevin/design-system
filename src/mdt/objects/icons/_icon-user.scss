@@ -1,0 +1,15 @@
+@mixin IconUser($color)
+{
+    @include Icon();
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='44' height='54' viewBox='0 0 44 54' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.6479 21.7895C27.6649 21.7895 32.5426 16.9118 32.5426 10.8947C32.5426 4.87775 27.6649 0 21.6479 0C15.6309 0 10.7531 4.87775 10.7531 10.8947C10.7531 16.9118 15.6309 21.7895 21.6479 21.7895Z' fill='#{$color}'/%3E%3Cpath d='M21.6477 53.3269C9.70171 53.3269 -0.810773 51.2244 0.0493391 45.9682C2.34297 32.2064 9.51057 24.1787 21.6477 24.1787C33.7848 24.1787 40.9524 32.302 43.2461 45.9682C44.1062 51.2244 33.5937 53.3269 21.6477 53.3269Z' fill='#{$color}'/%3E%3C/svg%3E");
+}
+
+.icon-user
+{
+    @include IconUser('%23#{str-slice(#{$c-brand-orange}, 2, 7)}');
+}
+
+.icon-user-brand-mid-grey
+{
+    @include IconUser('%23#{str-slice(#{$c-brand-mid-grey}, 2, 7)}');
+}
