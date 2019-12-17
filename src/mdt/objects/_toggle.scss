@@ -2,7 +2,7 @@
 {
     &__control
     {
-        display: none;
+        // display: none;
     }
 
     &__labels
@@ -11,23 +11,36 @@
         width: 100%;
         border: rem(1.5px) solid $c-brand-orange;
         border-radius: rem(4px);
+        overflow: hidden;
+        
+        &:focus-within
+        {
+            box-shadow: 0 0 3px $c-help-blue;
+        }
     }
 
     &__label
     {
         flex: 1 0 auto;
-        padding: rem(14.5px 22.5px);
+        height: 37px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //padding: rem(9.5px 18.5px);
+        padding-left: rem(9.5px);
+        padding-right: rem(9.5px);
         font-family: $f-inter;
         font-size: rem(16px);
         text-align: center;
         font-weight: 400;
         color: $c-typography;
+        border-left: rem(0.75px) solid transparent;
 
         &:not(.toggle__label--checked)
         {
             & + &
             {
-                border-left: rem(0.75px) solid $c-mid-grey;
+                border-left-color: $c-mid-grey;
             }   
         }
 
@@ -36,6 +49,48 @@
             background-color: $c-brand-orange;
             font-weight: 600;
             color: $c-white;
+        }
+    }
+
+    @media (max-width: 576px)
+    {
+        &-xs-vert .toggle
+        {
+            &__labels
+            {
+                flex-direction: column;
+            }
+
+            &__label
+            {
+                border-left: none !important;
+                border-top: rem(0.75px) solid transparent;
+            }
+
+            &__label:not(.toggle__label--checked) + .toggle__label:not(.toggle__label--checked)
+            {
+                border-top-color: $c-mid-grey;
+            }
+        }
+    }
+
+    &--error
+    {
+        .toggle
+        {
+            &__labels
+            {
+                border-color: $c-red;
+            }
+
+            &__error
+            {
+                display: block;
+                margin-top: 8px;
+                font-family: Inter, sans-serif;
+                font-size: 14px;
+                color: $c-red;
+            }
         }
     }
 }
