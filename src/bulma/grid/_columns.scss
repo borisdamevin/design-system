@@ -1,1 +1,40 @@
 @import '~bulma/sass/grid/columns';
+
+
+// Reset rule that means anything not .is-desktop is treated
+// as .is-tablet. Allows us to introduce rules below.
+
+@media screen and (min-width: 769px), print 
+{
+    .columns:not(.is-desktop) 
+    {
+        display: block;
+    }
+}
+  
+
+// Add additional column breakpoints
+
+@media screen and (min-width: 769px) 
+{
+    .columns.is-tablet 
+    {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .columns.is-desktop 
+    {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1216px) 
+{
+    .columns.is-widescreen 
+    {
+        display: flex;
+    }
+}

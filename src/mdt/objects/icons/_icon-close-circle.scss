@@ -1,0 +1,15 @@
+@mixin IconCloseCircle($color)
+{
+    @include Icon();
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1.5' y='1.5' width='61' height='61' rx='30.5' fill='white' stroke='#{$color}' stroke-width='3'/%3E%3Cpath d='M34.2705 31.9994L44.0296 22.241C44.6568 21.6138 44.6568 20.5976 44.0296 19.9704C43.4025 19.3432 42.3863 19.3432 41.7592 19.9704L32 29.7289L22.2408 19.9704C21.6137 19.3432 20.5975 19.3432 19.9704 19.9704C19.3432 20.5976 19.3432 21.6138 19.9704 22.241L29.7295 31.9994L19.9704 41.759C19.3432 42.3862 19.3432 43.4024 19.9704 44.0296C20.5975 44.6568 21.6137 44.6568 22.2408 44.0296L32 34.27L41.7592 44.0296C42.073 44.3435 42.4837 44.4999 42.8944 44.4999C43.3051 44.4999 43.7158 44.3429 44.0296 44.0296C44.6568 43.4024 44.6568 42.3862 44.0296 41.759L34.2705 31.9994Z' fill='#{$color}' stroke='#{$color}'/%3E%3C/svg%3E");
+}
+
+.icon-close-circle
+{
+    @include IconCloseCircle('%23#{str-slice(#{$c-brand-mid-grey}, 2, 7)}');
+}
+
+.icon-close-circle-green
+{
+    @include IconCloseCircle('%23#{str-slice(#{$c-green}, 2, 7)}');
+}
