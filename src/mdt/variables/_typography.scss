@@ -3,15 +3,15 @@ $f-inter: 'Inter', sans-serif;
 // Font Sizes
 $rem-baseline: 16px;
 
-$fs-32: rem(32px);
-$fs-28: rem(28px);
-$fs-24: rem(24px);
-$fs-22: rem(22px);
-$fs-20: rem(20px);
-$fs-18: rem(18px);
-$fs-14: rem(14px);
-$fs-16: rem(16px);
-$fs-12: rem(12px);
+$fs-32: sass-rem(32px);
+$fs-28: sass-rem(28px);
+$fs-24: sass-rem(24px);
+$fs-22: sass-rem(22px);
+$fs-20: sass-rem(20px);
+$fs-18: sass-rem(18px);
+$fs-14: sass-rem(14px);
+$fs-16: sass-rem(16px);
+$fs-12: sass-rem(12px);
 
 // Font Weights
 $fw-black: 900;

@@ -5,11 +5,11 @@ $borderWidth: 1.5px;
     padding: #{16px - $borderWidth} #{24px - $borderWidth};
     background-color: $c-white;
     border: $borderWidth solid $c-help-blue;
-    border-radius: rem(4px);
+    border-radius: sass-rem(4px);
     color: $c-help-blue;
     font-family: $f-inter;
     font-weight: 500;
-    font-size: rem(16px);
+    font-size: sass-rem(16px);
     text-decoration: none;
     text-align: center;
 

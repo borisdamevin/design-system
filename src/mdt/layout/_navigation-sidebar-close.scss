@@ -2,12 +2,12 @@
 {
     box-sizing: content-box;
     height: 20px;
-    font-size: rem(44px);
+    font-size: sass-rem(44px);
     line-height: 20px;
 
     [class^="icon-"]
     {
-        width: rem(16px);
-        height: rem(16px);
+        width: sass-rem(16px);
+        height: sass-rem(16px);
     }
 }

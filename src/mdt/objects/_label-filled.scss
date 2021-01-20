@@ -2,9 +2,9 @@
   @extend .paragraph-style-three;
   colour: $c-white;
   background-color: $c-brand-orange;
-  border: rem(1.5px) solid $c-brand-orange;
-  padding: rem(3px 7px);
-  border-radius: rem(4px);
+  border: sass-rem(1.5px) solid $c-brand-orange;
+  padding: sass-rem(3px 7px);
+  border-radius: sass-rem(4px);
   color: $c-white;
   line-height: 26px;
 }

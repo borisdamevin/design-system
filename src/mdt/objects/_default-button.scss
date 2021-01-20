@@ -1,13 +1,13 @@
 .default-button
 {
-    padding: rem(16px 24px);
+    padding: sass-rem(16px 24px);
     background-color: $c-brand-orange;
     border: none;
-    border-radius: rem(4px);
+    border-radius: sass-rem(4px);
     color: $c-white;
     font-family: $f-inter;
     font-weight: 500;
-    font-size: rem(16px);
+    font-size: sass-rem(16px);
     text-decoration: none;
 
     &:hover,
